@@ -1,0 +1,19 @@
+Searching 45 files for ".navbar-area {" (case sensitive)
+
+D:\Stažené soubory\web_pavel\assets\css\style.css:
+  600  ===========================*/
+  601  /*===== NAVBAR EIGHT =====*/
+  602: .navbar-area {
+  603    background: -webkit-linear-gradient(left, #43cae9 0%, #38f9d7 100%);
+  604    background: -o-linear-gradient(left, #4b595c 0%, #000000 100%);
+  ...
+  618      max-width: 150px; }
+  619    @media only screen and (min-width: 768px) and (max-width: 991px) {
+  620:     .navbar-area {
+  621        padding: 10px 0; } }
+  622    @media (max-width: 767px) {
+  623:     .navbar-area {
+  624        padding: 10px 0; } }
+  625    .navbar-area .navbar {
+
+3 matches in 1 file
