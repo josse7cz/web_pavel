@@ -600,9 +600,9 @@ p {
 ===========================*/
 /*===== NAVBAR EIGHT =====*/
 .navbar-area {
-  background: -webkit-linear-gradient(left, #43cae9 0%, #38f9d7 100%);
-  background: -o-linear-gradient(left, #43cae9 0%, #38f9d7 100%);
-  background: linear-gradient(to right, #43cae9 0%, #38f9d7 100%);
+  background: -webkit-linear-gradient(left, #000000 0%, #394a47 100%);
+  background: -o-linear-gradient(left, #000000FF 0%, #000000FF 100%);
+  background: linear-gradient(to right, #000000FF 0%, #000000FF 100%);
   padding: 10px 0;
   position: absolute;
   top: 0;
@@ -628,7 +628,7 @@ p {
     .navbar-area .navbar .navbar-toggler .toggler-icon {
       width: 30px;
       height: 2px;
-      background-color: #121212;
+      background-color: #ffffff;
       margin: 5px 0;
       display: block;
       position: relative;
