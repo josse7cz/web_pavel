@@ -10,10 +10,10 @@ D:\Stažené soubory\web_pavel\assets\css\style.css:
   618      max-width: 150px; }
   619    @media only screen and (min-width: 768px) and (max-width: 991px) {
   620:     .navbar-area {
-  621        padding: 10px 0; } }
+  621        padding: 0px 0; } }
   622    @media (max-width: 767px) {
   623:     .navbar-area {
-  624        padding: 10px 0; } }
+  624        padding: 0px 0; } }
   625    .navbar-area .navbar {
 
 3 matches in 1 file
