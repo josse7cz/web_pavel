@@ -102,7 +102,7 @@
                             <span class="toggler-icon"></span>
                         </button>
 
-                        <div class="collapse navbar-collapse sub-menu-bar" id="navbarEight">
+                        <div class="collapse navbar-collapse sub-menu-bar" id="navbarEight" role ="navigation">
                             <ul class="navbar-nav ml-auto">
                                 <li class="nav-item">
                                     <a class="page-scroll" href="#">DOMŮ</a>
@@ -115,7 +115,7 @@
                                 </li>
                             </ul>
                         </div>
-                        <div class="navbar-btn d-none mt-15 d-lg-inline-block">
+                        <div class="navbar-btn d-none mt-15 d-lg-inline-block" role ="navigation">
                             <a class="menu-bar" href="#side-menu-right"><i class="lni-menu"></i></a>
                         </div>
                     </nav> <!-- navbar -->
@@ -124,7 +124,7 @@
         </div> <!-- container -->
     </div> <!-- navbar area -->
 
-    <div class="slider-area" id="home">
+    <div class="slider-area" id="home" role="banner">
         <div class="bd-example">
             <div class="carousel slide" data-ride="carousel" id="carouselOne">
                 <div class="carousel-inner">
@@ -161,7 +161,7 @@
         <div class="sidebar-logo text-center">
             <a href="#"><img alt="Logo" src="assets/images/logo-alt.png"></a>
         </div> <!-- logo -->
-        <div class="sidebar-menu">
+        <div class="sidebar-menu" role="navigation">
             <ul>
                 <li><a href="#">DOMŮ</a></li>
                 <li><a href="#cenik">CENÍK</a></li>
@@ -182,7 +182,7 @@
 <!--====== SAIDEBAR PART ENDS ======-->
 <!--====== portfolio PART START ======-->
 
-<section class="portfolio-area" id="portfolio">
+<section class="portfolio-area" id="portfolio" role="main">
     <div class="container">
         <div class="row justify-content-center">
             <div class="col-lg-6">
@@ -200,7 +200,7 @@
 </section>
 
 
-<section class="cenik" id="cenik">
+<section class="cenik" id="cenik" role="complementary">
     <div class="container">
         <div class="row justify-content-center">
             <div class="col-lg-6">
@@ -232,14 +232,14 @@
 </section>
 
 
-<section class="contact-area" id="contact">
+<section class="contact-area" id="contact" role="navigation">
     <div class="container">
         <div class="row justify-content-center">
             <div class="col-lg-6">
                 <div class="section-title text-center pb-20">
                     <h4 class="title">Kde nás najdete</h4>
                     <p class="text">Těšíme se na Vaši návštěvu</p>
-                    <p>dálnice D1 -> exit 236.</p>
+                    <p>dálnice D1 směr Kroměříž, exit 236.</p>
 
 
                     <ul class="contact-info">
@@ -270,7 +270,7 @@
         <div class="container">
             <div class="row align-items-center">
                 <div class="col-lg-5">
-                    <div class="copyright text-center text-lg-left mt-10">
+                    <div class="copyright text-center text-lg-left mt-10" role="contentinfo">
                         <p class="text">Created <a href="https://josefjanda.webnode.cz/" rel="nofollow"
                                                    style="color: #38f9d7">by JJ</a></p>
                     </div> <!--  copyright -->
@@ -300,7 +300,8 @@
 <!--====== PART START ======-->
 <!--====== PART ENDS ======-->
 <!--====== jquery js ======-->
-<script src="assets/js/vendor/modernizr-3.6.0.min.js"></script>
+
+<!--<script src="assets/js/vendor/modernizr-3.6.0.min.js"></script>-->
 <script src="assets/js/vendor/jquery-1.12.4.min.js"></script>
 
 <!--====== Bootstrap js ======-->
