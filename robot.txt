@@ -1,0 +1,3 @@
+User-agent: *
+Disallow:
+Sitemap: https://www.mppneu.cz/sitemap.xml
