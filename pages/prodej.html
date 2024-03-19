@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+
+</head>
+<body>
+<div id="navigation"></div>
+
+<script class="nav">
+    document.addEventListener('DOMContentLoaded', function () {
+        fetch('nav.html')
+            .then(response => response.text())
+            .then(html => document.getElementById('navigation').innerHTML = html);
+    });
+</script>
+
+<div class="container">
+    <section>
+        <h1>Prodej zahájen</h1>
+        <h2>Vítejte na našem webu</h2>
+        <p>Tento web se zabývá prodejem různých produktů.</p>
+    </section>
+</div>
+</body>
+</html>
